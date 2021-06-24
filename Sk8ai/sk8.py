@@ -16,7 +16,7 @@ class Skate:
 			raise AssertionError("Invalid number of layers (value: 1)")
 		assert (err:=min(layers))>0, "Invalid number of neurons in layer #{} ({} value)".format(layers.index(err)+1,"negative" if err<0 else "zero") 
 		self.weights = [standard_normal((m,n))/n**0.5 for m,n in zip(layers[1:],layers[:-1])]
-		self.biases = [zeros((S,1),dtype=float) for S in layers[1:]]
+		self.biases = [zeros((S,1)) for S in layers[1:]]
 		
 	# Training neural net - Core learning
 	def _feedForward(self, learning_rate: {int, float}, inputs, expected):
@@ -110,4 +110,4 @@ class Skate:
 			)
 
 
-# GJLMA²N
+# GJLMAÂ²N
