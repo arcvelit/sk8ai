@@ -2,7 +2,7 @@ from numpy import argmax, matmul, zeros, array, ndarray
 from numpy.random import standard_normal
 from itertools import count
 from json import dump
-import maths as maths
+import maths
 
 class Skate:
 
@@ -90,10 +90,9 @@ class Skate:
 		print("Skate successfully imported")
 
 	def reveal(self):
-		if len(self.layers) > 0:
-			size = str(self.layers)[1:-1].replace(",","")
-		else: size = "empty"
-		print("Neural net:", f"<{size}>")
+		size_array = " ".join(str(lay) for lay in self.layers) if self.layers else "empty"
+		print(f"Neural net: <{size_array}>")
+
 
 	@staticmethod
 	def logo():
@@ -110,4 +109,4 @@ class Skate:
 			)
 
 
-# GJLMAÂ²N
+# GJLMA²N
