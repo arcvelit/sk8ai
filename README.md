@@ -7,7 +7,6 @@ Open you terminal and type:
 ```bash
 pip install Sk8ai
 ```
-(Sk8ai is not yet published)
 
 # Features
 There are two main files in sk8ai: `sk8.py` and `maths.py`
