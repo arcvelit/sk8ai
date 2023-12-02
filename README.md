@@ -5,7 +5,7 @@ Sk8ai is a project aiming to build a basic modular neural  network model (**Skat
 
 Open your terminal and type:
 ```bash
-pip install Sk8ai
+pip install sk8ai
 ```
 
 # Features
