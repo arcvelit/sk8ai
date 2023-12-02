@@ -2,7 +2,7 @@ from numpy import argmax, matmul, zeros, array, ndarray
 from numpy.random import standard_normal
 from itertools import count
 from json import dump
-import maths
+import sk8ai.maths as maths
 
 class Skate:
 
