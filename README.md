@@ -1,5 +1,5 @@
 # What is sk8ai
-Sk8ai is a project aiming to build a basic modular neural  network model (**Skate**) on **Python 3**.
+Sk8ai is a CEGEP end-of-studies project aiming to build a basic modular neural  network model (**Skate**) on **Python 3**.
 
 # Downloading packages
 
