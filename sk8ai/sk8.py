@@ -109,4 +109,4 @@ class Skate:
 			)
 
 
-# GJLMA²N
+# GJLMAï¿½N
