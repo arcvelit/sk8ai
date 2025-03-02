@@ -1,19 +1,19 @@
 # What is sk8ai
 Sk8ai is a CEGEP end-of-studies project aiming to build a basic modular neural  network model (**Skate**) on **Python 3**.
 
+# Downloading packages
+
+Open your terminal and type:
+```bash
+pip install -i https://test.pypi.org/simple/ sk8ai
+```
+
 ## ⚠️ Warning
 This project is not maintained anymore. You may need to install packages manually (numpy, tensorflow).
 
 You may experience compatibility issues with newer versions of TensorFlow. Try this.
 ```console 
 python3 -m pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl
-```
-
-# Downloading packages
-
-Open your terminal and type:
-```bash
-pip install -i https://test.pypi.org/simple/ sk8ai
 ```
 
 # Features
